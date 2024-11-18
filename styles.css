@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #ff0000;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+.header-logo {
+    width: 40px; /* Ajusta el tamaño del logo en el encabezado */
+    height: auto; 
+}
+
+main {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    flex-grow: 1; /* Esto permite que el main ocupe el espacio disponible */
+    padding-bottom: 60px;
+}
+
+footer {
+    background-color: #ff0000;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.footer-content {
+    display: flex;              /* Flexbox para alinear el texto y la imagen */
+    align-items: center;       /* Alineación vertical centrada */
+    justify-content: center;    /* Centrar el contenido horizontalmente */
+}
+
+.logo {
+    width: 60px;
+    height: auto; 
+}
+
+.footer-image {
+    width: 50px; 
+    height: auto;
+    margin-left: 10px;
+}
+
+header, footer {
+    font-size: 14px; 
+}
+
+input[type="text"], input[type="number"], input[type="date"], select {
+    width: 100%; /* Full width */
+    padding: 10px; /* Padding for input fields */
+    margin: 8px 0; /* Space between inputs */
+    border: 1px solid #ccc; /* Border for input fields */
+    border-radius: 4px; /* Rounded corners */
+}
+
+input[type="submit"] {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 103%;
+    box-sizing: border-box;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+.btn {
+    display: block;
+    margin: 20px auto;
+    text-decoration: none;
+    color: #fff;
+    background-color: #1eff00;
+    padding: 12px;
+    border-radius: 4px;
+    font-size: 16px; /* Aumenté el tamaño de la fuente */
+    text-align: center; /* Centra el texto dentro del botón */
+    width: 96%; /* Hace que el botón ocupe todo el ancho del contenedor */
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+
+/* Estilos para mensajes */
+.message {
+    margin: 20px 0; /* Espacio alrededor de los mensajes */
+}
+
+.success-message {
+    color: #4CAF50; /* Verde para el mensaje de éxito */
+    font-weight: bold;
+}
+
+.error-message {
+    color: #FF0000; /* Rojo para el mensaje de error */
+    font-weight: bold;
+}
+
+.links {
+    margin-top: 20px; /* Espacio superior para los enlaces */
+}
+
+h2 a {
+    color: #007BFF; /* Color azul para el enlace de proceder resultado */
+    text-decoration: none;
+}
+
+h2 a:hover {
+    text-decoration: underline; /* Subrayar en hover */
+}

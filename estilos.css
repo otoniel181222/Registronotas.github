@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center; /* Centra verticalmente el contenido */
+    align-items: center; /* Centra horizontalmente el contenido */
+    background-color: #f4f4f4; /* Color de fondo opcional */
+}
+
+header {
+    background-color: #ff0000; /* Barra superior e inferior en rojo */
+    color: white;
+    padding: 10px;
+    text-align: center; /* Centra el texto en el header y footer */
+    width: 100%; /* Asegura que ocupe todo el ancho */
+    position: relative;
+    display: flex; /* Usamos flexbox para alinear elementos */
+    align-items: center; /* Alinear verticalmente */
+    justify-content: center; /* Centrar horizontalmente */
+        
+}
+
+.header-logo {
+    width: 50px; /* Ajusta el tamaño de la imagen aquí */
+    height: auto; 
+    margin-left: 10px; /* Espacio entre la imagen y el texto */
+}
+
+main {
+    flex-grow: 1; /* Permite que el main ocupe el espacio disponible */
+    padding: 40px 20px; /* Espacio interno para el contenido */
+    text-align: center;
+    background-color: white; /* Color de fondo del contenido principal */
+    border-radius: 8px; /* Bordes redondeados opcionales */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera opcional */
+    margin: 20px 0; /* Separación del contenido respecto al header y footer */
+}
+
+footer {
+    background-color: #ff0000; /* Barra inferior en rojo */
+    color: white;
+    text-align: center;
+    padding: 10px; /* Espaciado del footer */
+    width: 100%; /* Asegura que ocupe todo el ancho */
+    position: relative;
+    display: flex; /* Usamos flexbox para alinear elementos */
+    align-items: center; /* Alinear verticalmente */
+    justify-content: center; /* Centrar horizontalmente */
+        
+}
+
+.footer-logo {
+    width: 50px; /* Ajusta el tamaño de la imagen aquí */
+    height: auto; 
+    margin-left: 10px; /* Espacio entre la imagen y el texto */
+}
+
+h2 {
+    margin-bottom: 20px; /* Espacio debajo del título */
+}
+
+form {
+    background-color: white; /* Fondo blanco para el formulario */
+    padding: 20px;
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+input[type="text"], input[type="password"], input[type="email"] {
+    width: 100%; /* Full width */
+    padding: 10px; /* Padding para los campos de entrada */
+    margin: 8px 0; /* Espacio entre campos */
+    border: 1px solid #ccc; /* Borde para los campos de entrada */
+    border-radius: 4px; /* Bordes redondeados */
+}
+
+button[type="submit"] {
+    background-color: #4CAF50; /* Color del botón */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%; /* Botón ocupa todo el ancho del formulario */
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049; /* Color del botón al pasar el ratón */
+}
